@@ -47,7 +47,7 @@ namespace rmmseg
         int next_char();
         std::vector<Word *> find_match_words();
         /* max word in dictionary is 8, larger than that is not necessory */
-        int max_word_length() { return 8; }
+        int max_word_length() { return 12; }
 
         const char *m_text;
         int m_pos;
